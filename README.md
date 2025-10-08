@@ -33,27 +33,6 @@ This app allows users to:
 
 ---
 
-## 📂 Project Structure
-
-restaurant-menu-app/
-│
-├── src/
-│ ├── components/
-│ │ ├── Navbar.jsx
-│ │ ├── MenuCard.jsx
-│ │ └── menuApi.js
-│ │
-│ ├── App.jsx
-│ └── index.js
-│
-├── assets/
-│ └── images/ (menu images)
-│
-├── styles.css
-│
-└── README.md
-
-
 ---
 
 ## 🚀 How to Run the Project
