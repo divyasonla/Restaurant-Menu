@@ -1,16 +1,72 @@
-# React + Vite
+# 🍽️ Restaurant Menu App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful and interactive **Restaurant Menu App** built with **React.js** that showcases different dishes categorized by type.  
+This project demonstrates filtering, responsive design, reusable components, and modern UI styling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Project Overview
 
-## React Compiler
+This app allows users to:
+- View a restaurant menu with images, descriptions, and categories.
+- Filter menu items by category with interactive buttons.
+- See a responsive, modern card-based layout.
+- Enjoy smooth hover effects and a visually appealing design.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💡 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Dynamic Filtering** — Users can filter menu items by category (e.g., breakfast, lunch, dinner, etc.).
+- **Reusable Components** — Navbar, MenuCard, and filtering logic are modular and reusable.
+- **Responsive Design** — Works beautifully on desktop and mobile devices.
+- **Modern UI** — Gradient navbar, card hover effects, and clean typography.
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js** — Front-end library
+- **JavaScript (ES6+)**
+- **CSS3** — Styling with custom hover effects
+- **HTML5**
+
+---
+
+## 📂 Project Structure
+
+restaurant-menu-app/
+│
+├── src/
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── MenuCard.jsx
+│ │ └── menuApi.js
+│ │
+│ ├── App.jsx
+│ └── index.js
+│
+├── assets/
+│ └── images/ (menu images)
+│
+├── styles.css
+│
+└── README.md
+
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/restaurant-menu-app.git
+Install dependencies:
+
+npm install
+
+Start the development server:
+npm start
+
+Open the app in your browser:
+http://localhost:3000
